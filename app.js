@@ -50,7 +50,7 @@ const listenMessage = () => {
             sendMessage(from, 'Hola mucho gusto!');
         }
         if(mensaje.includes("DON DAN")){
-            sendMessage(from, 'DON DANIEL A SUS ORDENES QUE SE LE OFRECE!');
+            sendMessage(from, 'DON DANIEL que se le ofrece!');
         }
     })
 }
@@ -62,3 +62,4 @@ const sendMessage = (to, message) => {
 }
 
 // para buscar palabra en String utilizar .includes('_ palabra _');
+
